@@ -9,3 +9,7 @@ class User(models.Model):
     gender = models.CharField(max_length = 10, blank = True)
     created_at = models.DateTimeField(auto_now_add = True)
 
+
+    def getUser(self):
+        return self.name
+
