@@ -147,6 +147,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ORIGIN_WHITELIST = [
-    'https://django-server-production-2cf0.up.railway.app/'
+    'https://django-server-production-2cf0.up.railway.app'
 ]
 
